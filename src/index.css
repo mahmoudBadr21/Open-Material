@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff;
+}
+.light {
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+.dark {
+  background-color: #0e0e0e;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.main {
+  min-height: 100vh;
+  height: fit-content;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+  min-height: calc(100vh - 140px);
+  height: fit-content;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.none {
+  display: none;
+}
+.f_flex {
+  display: flex;
+}
+.a_flex {
+  display: flex;
+  align-items: center;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.c_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.RText {
+  text-align: right;
+}
+body.light .boxShadow {
+  box-shadow: 0 5px 25px #01010133;
+}
+body.dark .boxShadow {
+  box-shadow: 0 5px 25px #bdbdbd33;
+}
+label {
+  font-size: 18px;
+}
+select,
+button {
+  border: none;
+  outline: none;
+}
+span {
+  color: #1a73e8;
+}
+select,
+input {
+  box-sizing: border-box;
+  width: 100%;
+  background: none;
+  color: #777;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  outline: none;
+  direction: rtl;
+}
+select:focus {
+  border-color: #1a73e8;
+}
+body.dark option {
+  background-color: #0e0e0e;
+}
+button[type=submit],
+.button {
+  width: 100%;
+  background: #1a73e8 ;
+  color: #fff;
+  padding: 14px 20px;
+  margin-top: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button[type=submit]:hover,
+.button:hover {
+  background: #1964c7;
+}
+.absolute {
+  position: absolute;
+  bottom: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+}
+.add_botm {
+  color: #fff;
+  background-color: #1a73e8;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  border-radius: 100px;
+  transition: 0.3s ease;
+}
+.add_botm:hover {
+  background: #164f99;
+}

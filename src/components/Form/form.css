@@ -1,0 +1,31 @@
+.descrbsion {
+  color: inherit;
+  text-align: center;
+}
+.descrbsion h1 {
+  font-size: 40px;
+}
+.descrbsion p {
+  margin: 10px;
+  padding: 10px;
+}
+.mainForm {
+  margin: 30px auto;
+  width: 50%;
+  padding: 20px;
+  border: 2px solid #1a73e8;
+  box-shadow: 0 0 12px 0px #4a83cd99;
+  border-radius: 10px;
+}
+/* ========== MEDUIUM DEVICE ========== */
+@media (max-width: 1024px) {
+  .mainForm {
+    width: 70%;
+  }
+}
+/* ========== SMALL DEVICE ========== */
+@media (max-width: 600px) {
+  .mainForm {
+    width: 100%;
+  }
+}

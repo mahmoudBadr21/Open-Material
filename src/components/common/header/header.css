@@ -1,0 +1,39 @@
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+header {
+  height: 50px;
+  background-color: #fff;
+  z-index: 100;
+}
+.header {
+  height: 100%;
+  padding: 0 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo {
+  width: 200px;
+}
+.add {
+  font-size: 17px;
+  transition: 0.5;
+}
+.add:hover {
+  color: #1964c7;
+}
+.auther-links {
+  gap: 20px;
+}
+.auther-links button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: inherit;
+}
+.auther-links button:hover {
+  color: #1964c7;
+}

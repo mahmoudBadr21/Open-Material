@@ -1,0 +1,21 @@
+.material-emp {
+  width: 385px;
+  display: flex;
+  align-items: center;
+}
+.material-emp-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.material-emp-text h1 {
+  font-size: 38px;
+}
+.material-emp-text p {
+  font-size: 18px;
+}
+.material-emp-text button[type="submit"] {
+  margin: 0;
+  width: fit-content;
+}

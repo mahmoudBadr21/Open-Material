@@ -1,0 +1,18 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+}
+.footer {
+  height: 100%;
+  padding: 0 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer_about {
+  color: white;
+}
+.footer_about:hover {
+  color: #1a73e8;
+}

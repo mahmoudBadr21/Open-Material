@@ -1,0 +1,13 @@
+.about .title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: 400;
+}
+.about .content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about main .add_botm:last-of-type {
+  margin-bottom: 20px;
+}

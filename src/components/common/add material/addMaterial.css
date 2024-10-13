@@ -1,0 +1,75 @@
+.container .title-addMaterial,
+.title-feadback {
+  text-align: center;
+  color: inherit;
+}
+.addMaterial,
+.fead-content {
+  border: 2px solid #1a73e8;
+  border-radius: 10px;
+  box-shadow: 0 0 12px 0px #4a83cd99;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  margin: 40px auto;
+}
+.addMaterial .logo,
+.fead-content .logo {
+  margin: auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.addMaterial form {
+  text-align: right;
+}
+.addMaterial label {
+  margin-bottom: 5px;
+}
+.addMaterial input,
+.addMaterial select {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+/* .addMaterial input[type = file] {
+  color: white;
+} */
+.addMaterial input {
+  outline: none;
+}
+.addMaterial textarea,
+.fead-content textarea {
+  height: 90px;
+  width: 100%;
+  margin-top: 7px;
+  border-radius: 4px;
+  border: 1px solid #1a73e8;
+  font-size: 16px;
+  padding: 10px;
+  background: none;
+  outline: none;
+  resize: none;
+  direction: rtl;
+  caret-color: #1a73e8;
+}
+.fead-content textarea {
+  margin-top: 40px;
+  color: #fff;
+  direction: rtl;
+}
+.addMaterial .button {
+  margin-top: 20px;
+}
+/* ========== MEDUIUM DEVICE ========== */
+@media (max-width: 1024px) {
+  .addMaterial,
+  .fead-content {
+    width: 70%;
+  }
+}
+/* ========== SMALL DEVICE ========== */
+@media (max-width: 600px) {
+  .addMaterial,
+  .fead-content {
+    width: 100%;
+  }
+}

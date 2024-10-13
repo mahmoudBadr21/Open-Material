@@ -1,0 +1,49 @@
+.material {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+.material .mainTitle {
+  width: fit-content;
+  font-size: 35px;
+  font-weight: 400;
+  color: #007bff;
+  padding-bottom: 7px;
+  margin-bottom: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-bottom: 2px solid #007bff;
+}
+.material .title {
+  font-weight: 500;
+  font-size: 22px;
+  color: #164f99;
+}
+.material .midTerm .title {
+  display: none;
+}
+.material .midTerm:first-of-type .title {
+  display: block;
+}
+.material .box {
+  padding: 20px;
+  background-color: inherit;
+  border: 1px solid #007BFF;
+  border-radius: 20px;
+  margin: 30px 0 30px 30px;
+}
+.material .box h3 {
+  font-weight: 500;
+}
+.material .box a {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+.material .box a:hover {
+  background: #164f99;
+}
